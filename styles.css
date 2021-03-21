@@ -1,0 +1,299 @@
+*{
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("images/grey-background-abstract-shapes.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Navigation specifics*/
+nav *{
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links__option {
+  border-right: 0.5px solid #bbb;
+}
+
+.nav-links a {
+  font-family: sans-serif, Helvetica, Arial;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color .75s ease 0s;
+}
+
+#settings-button {
+  font-family: sans-serif, Helvetica, Arial;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color .75s ease 0s;
+}
+
+.style-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  padding: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease 0s;
+  
+}
+
+input{
+  text-align: center;
+}
+
+#settings-button:hover .style-menu{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.style-menu__label{
+  font-family: sans-serif, Helvetica, Arial;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.style-menu__style{
+  width: 90%;
+}
+
+#changeFontSize {
+  width: 40%;
+}
+
+.nav-links a:hover {
+  background-color: gray;
+  color: black;
+}
+
+.nav-links #active a {
+  background-color: aliceblue;
+  color: black;
+}
+
+.icon {
+  display: none;
+}
+
+/* Stadardized Wbsite information*/
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  min-height: 90%;
+}
+
+p {
+  font-family: Arial, sans-serif, Helvetica;
+}
+
+p a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+main li a {
+  color: blue;
+  font-style: italic;
+}
+
+/* what is form? */
+form {
+  display: flex;
+  flex-direction: column;
+}
+article {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* table style */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #ddd;
+}
+th,td {
+  text-align: center;
+  padding: 16px;
+  } 
+th:first-child, td:first-child {
+  text-align: left;
+  }
+tr:nth-child(even) {
+  background-color: #e6d5d5
+  }
+.fa-check {
+  color: green;
+  }
+.fa-remove {
+  color: red;
+  }
+.table-icon{
+  width: 17px; 
+  height: 17px;
+  }
+
+
+.fieldset__text-question, .fieldset__radio-question ,.input-text__false , .input-text__true, .input-radio__false, .input-radio__true, .input-checkbox__false, .input-checkbox__true {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label__text-question {
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+.fieldset__text-question button, .fieldset__radio-question button{
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+
+.fieldset__text-question label, .fieldset__radio-question label{
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+
+.fieldset__text-question input, .fieldset__radio-question input{
+  box-sizing: border-box;
+  margin: 10px 0px;
+}
+
+
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  overflow:hidden;
+  }
+
+
+  /* our images */
+.fourdifferentbrowsers{
+  width: 750px;
+  height: 375px;
+  }
+  
+.image-frontpage {
+    display: block;
+    width: 100%;
+  }
+
+
+@media screen and (max-width:900px){
+  .fourdifferentbrowsers{
+    width: 250px;
+    height: 125px;
+  }  
+  th, td {
+    text-align: center;
+    padding: 4px;
+  }
+  tr:nth-child(even) {
+    background-color: #e6d5d5
+  }
+}
+
+@media screen and (max-width:845px){
+  nav {
+    height: fit-content;
+  }
+  .nav-links a {
+    padding: 12px 12px;
+    font-size: 11px;
+  }
+  main {
+    font-size: 75%; 
+  }
+  article {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width:700px){
+.security{
+  width: 50%;
+  height: 50%;
+  }
+}
+
+@media screen and (max-width:600px){
+  th, td {
+    text-align: center;
+    padding: 1px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .artical-questionaire {
+    font-size: 9px;
+  }
+
+  .nav-links__button{
+    text-align: center;
+  }
+  .nav-links a {
+    padding: 5px 50px;
+}
+  nav {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .nav-links{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:300px){
+  .fourdifferentbrowsers{
+    width: 150px;
+    height: 75px;
+  }  
+}
+
+

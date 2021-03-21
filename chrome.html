@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- comment-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="google, browser, internet, chrome" />
+    <title>Browsers</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="element-editor.js" defer></script>
+  </head>
+
+  <header>
+    <!-- <script src="javascript-functions.js" defer></script> -->
+    <h1>Browsers</h1>
+  </header>
+
+  <nav>
+    <ul class="nav-links" id="navigationbar">
+      <li class="nav-links__option"><a class="active" href="index.html">Home</a></li>
+      <li class="nav-links__option"><a href="firefox.html">Firefox</a></li>
+      <li class="nav-links__option"><a href="edge.html">Edge</a></li>
+      <li class="nav-links__option"><a href="safari.html">Safari</a></li>
+      <li class="nav-links__option" id="active"><a href="chrome.html">Chrome</a></li>
+      <li class="nav-links__option"><a href="compare-browsers.html">Compare</a></li>
+      <li class="nav-links__option"><a href="assesment.html">Assesment</a></li>
+  </ul>
+
+     <ul class="nav-links">
+      <li class="nav-links__option" id="settings-button">
+        <a href="#">Settings</a>
+        <ul class="style-menu">
+          <li>
+            <label class="style-menu__label" for="selectElement"
+              >Choose element</label
+            >
+            <select
+              class="style-menu__style"
+              name="selectElement"
+              id="selectElement" 
+              placeholder = "element"
+            >
+             
+              <option value="all">All</option>
+              <option value="headers">Header</option>
+              <option value="intro">Intro</option>
+              <option value="article_1">Article</option>
+              <option value="footer">Footer</option>
+            </select>
+          </li>
+          <li>
+            <label class="style-menu__label" for="changeFontSize"
+              >Font Size</label
+            >
+          </li>
+          <li />
+          <li>
+            <input type="text" id="changeFontSize" placeholder="5-40" />
+            <li />
+          </li>
+
+          <li>
+            <label class="style-menu__label" for="userColor"
+              >Choose a color</label
+            >
+          </li>
+          <li>
+            <input class="style-menu__color" type="color" id="userColor" />
+          </li>
+          <li><button id="confirm-styles-button">Enter</button></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  </nav>
+
+  <main>
+    <article id="intro">
+      <h2>Chrome Origin</h2>
+      <p>
+        Google Chrome is a cross-platform web browser developed by Google. It
+        was first released in 2008 for Microsoft Windows, and was later ported
+        to Linux, macOS, iOS, and Android where it is the default browser built
+        into the OS. <br />
+        Chrome was created first as an open source product. Many developers were
+        allowed to access the code and contribute, if they saw fit to do so.
+      </p>
+    </article>
+    <article id="main-article">
+      <h2>Chrome tricks and tips</h2>
+      <h3>Instant Search</h3>
+      <p>
+        It is possible to highlight words and drag and drop them onto the extra
+        space beside your search tabs. Making chrome open a new page that Google
+        searches the word.
+      </p>
+      <h3>Alternative scrolling</h3>
+      <p>
+        You can scroll down your screen by pressing <b>shift </b>and
+        <b>spacebar</b> at the same time.
+      </p>
+      <h3>Save all tabs</h3>
+      <p>
+        Pressing Ctrl-Shift-T or Cmd-Shift-D will save all tabs currently open
+        in a small folder that will appear at the bottom
+      </p>
+      <h3>Choose Your Default Search Engine</h3>
+      <p>
+        You can change your own default search enginge in your browser settings.
+        Learn
+        <a
+          href="https://www.howtogeek.com/710159/how-to-change-the-default-search-engine-on-chrome/#:~:text=Desktop%20or%20Laptop%20Computer&text=Click%20the%20three%2Ddot%20menu,Settings%E2%80%9D%20from%20the%20context%20menu.&text=Scroll%20down%20to%20the%20%E2%80%9CSearch,search%20engines%20from%20the%20list."
+        >
+          how to change yourbrowser settings</a
+        >.
+      </p>
+      <h3>Move a downloaded file to a specific place</h3>
+      <p>
+        Downloads can be placed in specific folders in your computer. You can
+        then drag and drop the download directly to your desktop or to any
+        folder.
+      </p>
+      <h3>Save everything you download in a cloud-based folder</h3>
+      <p>
+        you must install the desktop synchronization program for the storage
+        service you use. Most of them, such as Google Drive, Dropbox and
+        OneDrive, provide these utilities for all common operating systems. Once
+        configured, you will have a folder on your local hard drive that will
+        always sync with a folder in your cloud storage. In the "Advanced"
+        section of the Chrome settings you can click on "Change" in "Downloads"
+        and create a subfolder where all the files you download online will be.
+      </p>
+      <h3>Create custom keyboard shortcuts in Chrome</h3>
+      <p>
+        Go to the main menu in the upper right corner and within it to "More
+        tools> Extensions". Once there, at the bottom, the Google browser
+        enables the "Key combinations" option, where you can generate custom
+        keyboard commands to quickly access all the extensions you want.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>@Marijn, Oscar en Nasim</p>
+  </footer>
+</html>

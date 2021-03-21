@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- comment-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="mozilla, browser, internet, firefox" />
+    <title>Browsers</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="element-editor.js" defer></script>
+  </head>
+
+  <header>
+    <h1>Browsers</h1>
+  </header>
+
+  <nav>
+    <ul class="nav-links" id="navigationbar">
+      <li class="nav-links__option">
+        <a class="active" href="index.html">Home</a>
+      </li>
+      <li class="nav-links__option" id="active">
+        <a href="firefox.html">Firefox</a>
+      </li>
+      <li class="nav-links__option"><a href="edge.html">Edge</a></li>
+      <li class="nav-links__option"><a href="safari.html">Safari</a></li>
+      <li class="nav-links__option"><a href="chrome.html">Chrome</a></li>
+      <li class="nav-links__option">
+        <a href="compare-browsers.html">Compare</a>
+      </li>
+      <li class="nav-links__option"><a href="assesment.html">Assesment</a></li>
+    </ul>
+
+    <ul class="nav-links">
+      <li class="nav-links__option" id="settings-button">
+        <a href="#">Settings</a>
+        <ul class="style-menu">
+          <li>
+            <label class="style-menu__label" for="selectElement"
+              >Choose element</label
+            >
+            <select
+              class="style-menu__style"
+              name="selectElement"
+              id="selectElement" 
+              placeholder = "element"
+            >
+             
+              <option value="all">All</option>
+              <option value="headers">Header</option>
+              <option value="intro">Intro</option>
+              <option value="article_1">Article</option>
+              <option value="footer">Footer</option>
+            </select>
+          </li>
+          <li>
+            <label class="style-menu__label" for="changeFontSize"
+              >Font Size</label
+            >
+          </li>
+          <li />
+          <li>
+            <input type="text" id="changeFontSize" placeholder="5-40" />
+            <li />
+          </li>
+
+          <li>
+            <label class="style-menu__label" for="userColor"
+              >Choose a color</label
+            >
+          </li>
+          <li>
+            <input class="style-menu__color" type="color" id="userColor" value="#000000" />
+          </li>
+          <li><button id="confirm-styles-button">Enter</button></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <article id="intro">
+      <h2>Mozilla Firefox Origin</h2>
+      <p class="chrome-page">
+        Mozilla Firefox is a free and open-source webbrowser which was developed
+        by the Mozilla-Project. Nowadays Mozilla is not used as widely as
+        before, but the browser is still very popular with webdevelopers because
+        it follows W3C web standards better than most other browsers. Also ther
+        are a lot of very usefull extension avalible for Firefox. In January
+        2015 there were a total of 18.000 ad-ons.
+      </p>
+    </article>
+    <article id="main-article">
+      <h2>Mozilla Firefox Tips and Tricks</h2>
+      <h3>More Screen Space</h3>
+      <p>
+        Firefox allows you to reduce the size of the icons and your toolbar. It
+        is only a small change, but it can save some much needed screenspace on
+        a tablet, or just give a more minmalistic look.
+      </p>
+      <h3>Quick Bookmarking</h3>
+      <p>
+        With one click you can bookmark any webpage that you are currently on.
+        By simply clicking the star icon on the right of the toolbar, Firefox
+        save a bookmark of the specific website your are on, so you can acces it
+        easily any time you want.
+      </p>
+      <h3>Personalized Toolbar</h3>
+      <p>
+        In firefox you can personlize your toolbar and add any icons you need.
+        This allows you to print, download share or do anything you need on a
+        webpage with just one click.
+      </p>
+      <h3>Set Up Multiple Homepages</h3>
+      <p>
+        Firefox also alows you to set up multiple homepages. So if you can't
+        chose which websites need to open when you first launch your browser,
+        Firefox can just open all of them for you at once.
+      </p>
+      <h3>Password Vault Lockwise</h3>
+      <p>
+        Firefox can store all your passwords safely and secure in their vault
+        called Lockwise, so that you don't have to remeber every password on
+        every website, or have the same password for many websites, which of
+        course, is never a good idea. All you have to do, is think of one master
+        password, and this allows you to acces your vault. Firefox will
+        automaticly fill in any details that are saved for that specific
+        website.
+      </p>
+      <h3>Increase the speed</h3>
+      <p>
+        If you feel Firefox is running a bit slow, you can give it some extra
+        power by turning on hardware acceleration. Just go to
+        <b>About: Preferences > General > Performance</b> and uncheck the box
+        that says: <b>Use Recommended Performance Settings</b>. A new checkbox
+        should appear that says <b>Use hardware acceleration when available</b>,
+        just check the box, and it should give your browser some extra power if
+        avalible.
+      </p>
+      <h3>Screen Grab</h3>
+      <p>
+        This feature currently is integrated in most opertaing systems already
+        but it's still a nice feature to have. Firefox allows you to very easily
+        take screenshot or partial screenshots of a webpage and allows you to
+        store them instantly. You can make a screenshot by right clicking
+        anywher on a page, and clicking the <b>Page Actions menu</b>. Now just
+        select the area you need a screenshot from, and you're done!
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>@Marijn, Oscar en Nasim</p>
+  </footer>
+</html>

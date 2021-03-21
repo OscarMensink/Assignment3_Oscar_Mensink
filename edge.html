@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- comment-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="edge, browser, internet, microsoft" />
+    <title>Browsers</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="element-editor.js" defer></script>
+  </head>
+
+  <header>
+    <h1>Browsers</h1>
+  </header>
+
+  <nav>
+    <ul class="nav-links" id="navigationbar">
+      <li class="nav-links__option"><a class="active" href="index.html">Home</a></li>
+      <li class="nav-links__option"><a href="firefox.html">Firefox</a></li>
+      <li class="nav-links__option" id="active"><a href="edge.html">Edge</a></li>
+      <li class="nav-links__option"><a href="safari.html">Safari</a></li>
+      <li class="nav-links__option"><a href="chrome.html">Chrome</a></li>
+      <li class="nav-links__option"><a href="compare-browsers.html">Compare</a></li>
+      <li class="nav-links__option"><a href="assesment.html">Assesment</a></li>
+  </ul>
+
+    <ul class="nav-links">
+      <li class="nav-links__option" id="settings-button">
+        <a href="#">Settings</a>
+        <ul class="style-menu">
+          <li>
+            <label class="style-menu__label" for="selectElement"
+              >Choose element</label
+            >
+            <select
+              class="style-menu__style"
+              name="selectElement"
+              id="selectElement" 
+              placeholder = "element"
+            >
+             
+              <option value="all">All</option>
+              <option value="headers">Header</option>
+              <option value="intro">Intro</option>
+              <option value="article_1">Article</option>
+              <option value="footer">Footer</option>
+            </select>
+          </li>
+          <li>
+            <label class="style-menu__label" for="changeFontSize"
+              >Font Size</label
+            >
+          </li>
+          <li />
+          <li>
+            <input type="text" id="changeFontSize" placeholder="5-40" />
+            <li />
+          </li>
+
+          <li>
+            <label class="style-menu__label" for="userColor"
+              >Choose a color</label
+            >
+          </li>
+          <li>
+            <input class="style-menu__color" type="color" id="userColor" />
+          </li>
+          <li><button id="confirm-styles-button">Enter</button></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  </nav>
+
+  <main>
+    <article id="intro">
+      <h2>Microsoft Edge Origin</h2>
+      <p>
+        Microsoft Edge is a cross-platform web browser that was first released
+        in 2015 as a succesor of the not so liked Internet Explorer. Since then
+        however, many changes were made to Edge. In June 2020 a new Chromium
+        based version of Microsoft Edge was realeased. Chromium is an opensource
+        webbrowser which is also the base of Google Chrome. This is why Edge and
+        Chrome feel very similair.
+      </p>
+    </article>
+    <article class="browser-page" id="main-article">
+      <h2>Microsoft Edge Tips and Tricks</h2>
+      <h3>Annotate a webpage</h3>
+      <p>
+        Edge allows you to draw and highlight anything on a webpage and save a
+        screenshot which allows you to easily make notes when doing research.
+      </p>
+      <h3>Dark Theme</h3>
+      <p>
+        If we are browsing late in the evening, you don't want a bright light
+        shining in your eyes. That's why Edge, like most browsers nowadays,
+        allows you to select a dark theme which makes most websites a lot less
+        bright and more pleasing to your eyes.
+      </p>
+      <h3>Personalized Home page</h3>
+      <p>
+        Edge also allows you to build a personalized homepage, which opens when
+        by default when you start up your browser. Here you set shortcuts to
+        websites you often visit, which can save a bit of much needed time.
+      </p>
+      <h3>Cortana</h3>
+      <p>
+        Microsofts visual assistant Cortana is also integrated into Microsoft
+        Edge. Cortana is like a personal secretary. Cortana can send you
+        reminders of events saved on your calender or help you search the web
+        through the cortana search bar. Also, because Edge and Cortana are both
+        products made by Microsft, Cortana allows you to open apps on your pc
+        from Edge withouth having to leave your browser. If you'd like to learn
+        more about cortana,
+        <a
+          href="https://www.laptopmag.com/articles/turn-use-cortana-microsoft-edge"
+          >here are some cool tips</a
+        >
+      </p>
+      <h3>Save Content to your Collecitons</h3>
+      <p>
+        Edge allows you to save webcontent from any page to your Collecitons
+        which are located at the top right of the browser. This way you can
+        easily store and find any content you find, and need to use at a later
+        time.
+      </p>
+      <h3>Extensions</h3>
+      <p>
+        Because Edge is Chromium based, all extension that work on Chrome also
+        work on Microsoft Edge. This way, if you want to switch from Chrome to
+        Edge, you can take all you extensions with you.
+      </p>
+      <h3>Mute Tabs Individually</h3>
+      <p>
+        Antother great simple but great thing about Edge, is that you can mute
+        tabs individually simply by right clicking the specific tab, and click
+        mute. By muting individually, I mean that if I mute a tab with
+        youtube.com open, another tab with youtube will still be able to play.
+        On other browsers, like Chrome this is not the case, there you can only
+        mute a specific website, which mutes all tabs that have that website
+        open.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>@Marijn, Oscar en Nasim</p>
+  </footer>
+</html>

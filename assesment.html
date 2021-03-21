@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- comment-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="safari, browser, internet, apple" />
+    <title>Browsers</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="assesment.js" defer></script>
+    <script src="element-editor.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Browsers</h1>
+    </header>
+    <nav>
+      <ul class="nav-links" id="navigationbar">
+        <li class="nav-links__option"><a class="active" href="index.html">Home</a></li>
+        <li class="nav-links__option"><a href="firefox.html">Firefox</a></li>
+        <li class="nav-links__option"><a href="edge.html">Edge</a></li>
+        <li class="nav-links__option"><a href="safari.html">Safari</a></li>
+        <li class="nav-links__option"><a href="chrome.html">Chrome</a></li>
+        <li class="nav-links__option"><a href="compare-browsers.html">Compare</a></li>
+        <li class="nav-links__option" id="active"><a href="assesment.html">Assesment</a></li>
+    </ul>
+
+    <ul class="nav-links">
+      <li class="nav-links__option" id="settings-button">
+        <a href="#">Settings</a>
+        <ul class="style-menu">
+          <li>
+            <label class="style-menu__label" for="selectElement"
+              >Choose element</label
+            >
+            <select
+              class="style-menu__style"
+              name="selectElement"
+              id="selectElement" 
+              placeholder = "element"
+            >
+             
+              <option value="all">All</option>
+              <option value="headers">Header</option>
+              <option value="intro">Intro</option>
+              <option value="article_1">Article</option>
+              <option value="footer">Footer</option>
+            </select>
+          </li>
+          <li>
+            <label class="style-menu__label" for="changeFontSize"
+              >Font Size</label
+            >
+          </li>
+          <li />
+          <li>
+            <input type="text" id="changeFontSize" placeholder="5-40" />
+            <li />
+          </li>
+
+          <li>
+            <label class="style-menu__label" for="userColor"
+              >Choose a color</label
+            >
+          </li>
+          <li>
+            <input class="style-menu__color" type="color" id="userColor" />
+          </li>
+          <li><button id="confirm-styles-button">Enter</button></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  </nav>
+
+    <main>
+      <article id="artical-questionaire"></article>
+    </main>
+    <footer>
+      <p>@Marijn, Oscar en Nasim</p>
+    </footer>
+  </body>
+</html>

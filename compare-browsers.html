@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- comment-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="browser, compare, internet" />
+    <title>Browsers</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="element-editor.js" defer></script>
+  </head>
+
+  <header>
+    <h1>Browsers</h1>
+  </header>
+
+  <nav>
+    <ul class="nav-links" id="navigationbar">
+      <li class="nav-links__option"><a class="active" href="index.html">Home</a></li>
+      <li class="nav-links__option"><a href="firefox.html">Firefox</a></li>
+      <li class="nav-links__option"><a href="edge.html">Edge</a></li>
+      <li class="nav-links__option"><a href="safari.html">Safari</a></li>
+      <li class="nav-links__option"><a href="chrome.html">Chrome</a></li>
+      <li class="nav-links__option" id="active"><a href="compare-browsers.html">Compare</a></li>
+      <li class="nav-links__option"><a href="assesment.html">Assesment</a></li>
+  </ul>
+
+      <ul class="nav-links">
+      <li class="nav-links__option" id="settings-button">
+        <a href="#">Settings</a>
+        <ul class="style-menu">
+          <li>
+            <label class="style-menu__label" for="selectElement"
+              >Choose element</label
+            >
+            <select
+              class="style-menu__style"
+              name="selectElement"
+              id="selectElement" 
+              placeholder = "element"
+            >
+             
+              <option value="all">All</option>
+              <option value="headers">Header</option>
+              <option value="intro">Intro</option>
+              <option value="article_1">Article</option>
+              <option value="footer">Footer</option>
+            </select>
+          </li>
+          <li>
+            <label class="style-menu__label" for="changeFontSize"
+              >Font Size</label
+            >
+          </li>
+          <li />
+          <li>
+            <input type="text" id="changeFontSize" placeholder="5-40" />
+            <li />
+          </li>
+
+          <li>
+            <label class="style-menu__label" for="userColor"
+              >Choose a color</label
+            >
+          </li>
+          <li>
+            <input class="style-menu__color" type="color" id="userColor" />
+          </li>
+          <li><button id="confirm-styles-button">Enter</button></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <article id="main-article"> 
+      <p>
+        Four of the best browsers in comparison, we will compare the Security
+        and privacy of Firefox. Chrome, Edge and Safari. and show you whats best
+        for your browsing activities.
+      </p>
+      <p>
+        We also have a range of links to download all of the different browsers.
+        go straigt to the <a href="#downloads">downloads</a>.
+      </p>
+      <p>
+        Using a browser that blocks third-party trackers is important for
+        privacy
+      </p>
+      <p>It mostly means that it runs much faster.</p>
+      <p>
+        Most trackers are invisible scripts that are in the background on a
+        number of websites you visit.
+      </p>
+      <p>
+        You can not see them, but you can see them slowing down your browser
+        speed.
+      </p>
+      <p>
+        As of the latest version of Firefox, fingerprints and cryptominers are
+        also blocked.
+      </p>
+      <p>
+        If you are not familiar with cryptominers, here is an example of how
+        they can affect your browser eexperience.
+      </p>
+      <p>
+        Maybe you have experienced your computer suddenly becoming hotter and
+        hotter or the battery depleting faster than normal.
+      </p>
+      <p>
+        That is often the byproduct of cryptominers mining around on your device
+        for information.
+      </p>
+      <img
+        class="security"
+        src="images/security-privacy-lock.jpg"
+        alt="Absteract design with numbers and micro-chip like lines, with a lock symbol on the front and the text cyber security."
+      />
+      <h2>The Best Browsers that can keep your secrects secret!</h2>
+
+      <table>
+        <tr>
+          <th>Security and Privacy</th>
+          <th>
+            <i
+              ><img
+                class="table-icon"
+                src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg"
+                alt="Firefox"
+              />Firefox</i
+            >
+          </th>
+          <th>
+            <i
+              ><img
+                class="table-icon"
+                src="https://www.mozilla.org/media/img/logos/chrome/logo-chrome.36729db6cd71.png"
+                alt="Chrome"
+              />Chrome</i
+            >
+          </th>
+          <th>
+            <i
+              ><img
+                class="table-icon"
+                src="https://www.mozilla.org/media/img/logos/edge/logo-edge.016a47a7fab3.png"
+                alt="Edge"
+              />Edge</i
+            >
+          </th>
+          <th>
+            <i
+              ><img
+                class="table-icon"
+                src="https://www.mozilla.org/media/img/logos/safari/logo-safari.2a116a2615e2.png"
+                alt="Safari"
+              />Safari</i
+            >
+          </th>
+        </tr>
+        <tr>
+          <td>Private browsing mode</td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr>
+          <td>Block cryptomining scripts</td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-remove"></i></td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-remove"></i></td>
+        </tr>
+        <tr>
+          <td>Blocks social trackers</td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-remove"></i></td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr>
+          <td>Blocks tracking cookies by default</td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-remove"></i></td>
+          <td><i class="fa fa-check"></i></td>
+          <td><i class="fa fa-check"></i></td>
+        </tr>
+      </table>
+      <p>
+        As you can see and conclude, this gives a clear image of the different
+        browsers. Firefox and Edge score high on this regard whit Safari right
+        behind them. And dripping down in last place is for your security is
+        Chrome.
+      </p>
+      <p>
+        In addition to privacy security, which largely takes place in the
+        background of the browsers
+      </p>
+      <p>
+        Another key stone to a good browser is the actual user interface and the
+        user functionality.
+      </p>
+      <p>
+        Almost all four browsers are equal when it comes to using tabs, having
+        bookmarks, proofreading and extra extensions.
+      </p>
+      <p>
+        Firefox and Edge also offer a screenshot function that proves to be very
+        handy.
+      </p>
+      <p></p>
+      <p id="downloads">links to the browser-page downloads:</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.mozilla.org/en-US/firefox/all/#product-desktop-release"
+            target="_blank"
+            >Firefox</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/chrome/?brand=YTUH&gclid=Cj0KCQiAj9iBBhCJARIsAE9qRtDllSICefEImB35KNyVsfPAoLiQBTd1s2bUzi54oeJOpL9cImXdItEaAhp7EALw_wcB&gclsrc=aw.ds"
+            target="_blank"
+            >Chrome</a
+          >
+        </li>
+        <li>
+          <a href="https://www.microsoft.com/en-us/edge" target="_blank"
+            >Edge</a
+          >
+        </li>
+        <li>
+          <a href="https://support.apple.com/downloads/safari" target="_blank"
+            >Safari</a
+          >
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>@Marijn, Oscar en Nasim</p>
+  </footer>
+</html>

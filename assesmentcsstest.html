@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- comment-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device, initial-scale=1">
+    <meta name="keywords" content="safari, browser, internet, apple">
+    <title>Browsers</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="javascript-functions.js" defer></script>
+</head>
+<!-- artical 
+        h1
+        p
+        fieldset class = input--text-question, input--text-true ,input--text-false
+            label
+            input
+        /fieldset
+        fieldset input--radio-question input--radio-true input--radio-false
+            label input
+            label input
+            label input
+            label input
+        /fieldset
+        fieldset input--checkbox-question input--checkbox-true input--checkbox-false
+        label input
+        label input
+        label input
+        label input
+        /fieldset -->
+<body>
+    <header>
+        <h1>Browsers</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="firefox.html">Firefox</a></li>
+            <li><a href="edge.html">Edge</a></li>
+            <li><a href="safari.html">Safari</a></li>
+            <li><a href="chrome.html">Chrome</a></li>
+            <li><a href="compare-browsers.html">Compare</a></li>
+            <li><a class="active" href="assesment.html">Assesment</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <article id="artical-assesment">
+
+            <h1>Do you know your websites?</h1>
+            <p>There are lots of different snippets of information you could have learned on this website, let us see if
+                you
+                have retained any of this information by way of asking you some ridicuolous questions.</p>
+
+                <fieldset class ="input--text-question"id="1number"><label id="test1">In what year did Steve Jobs announce that Macworld had
+                        developed it's
+                        own browser? (please use 4 digits to represent the year)</label><input type="text" name="1input"
+                        placeholder="1999"></fieldset>
+                <fieldset class="input--radio-question" ><label id="test1">What
+                        virtual
+                        assistant does Microsoft edge use?</label><label>Siri</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"><label>Bert</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"><label>Alexa</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"><label>Cortana</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"></fieldset>
+                <fieldset class="input--checkbox-question"id="3number"><label id="test1">What quick keys can you use to save all your tabs in file on
+                        google
+                        chrome?</label><label>Ctrl-Shift-T</label><input type="checkBox"
+                        name="3input-checkBox"><label>Ctrl-Shift-P</label><input type="checkBox"
+                        name="3input-checkBox"><label>Cmd-Shift-D</label><input type="checkBox"
+                        name="3input-checkBox"><label>Ctrl-Shift-D</label><input type="checkBox" name="3input-checkBox">
+                </fieldset>
+
+        </article>
+        <article id="artical-assesment">
+        
+            <h1>Do you know your websites?</h1>
+            <p>There are lots of different snippets of information you could have learned on this website, let us see if
+                you
+                have retained any of this information by way of asking you some ridicuolous questions.</p>
+
+                <fieldset class="input--text-correct" id="1number"><label id="test1">In what year did Steve Jobs announce that Macworld had
+                        developed it's
+                        own browser? (please use 4 digits to represent the year)</label><input type="text" name="1input"
+                        placeholder="1999"></fieldset>
+                <fieldset class="input--radio-correct" id="2number" ><label id="test1">What
+                        virtual
+                        assistant does Microsoft edge use?</label><label>Siri</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"><label>Bert</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"><label>Alexa</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"><label>Cortana</label><input type="radio" name="2input"
+                        value="Siri,Bert,Alexa,Cortana"></fieldset>
+                <fieldset class="input--checkbox-correct"  id="3number"><label id="test1">What quick keys can you use to save all your tabs in file on
+                        google
+                        chrome?</label><label>Ctrl-Shift-T</label><input type="checkBox"
+                        name="3input-checkBox"><label>Ctrl-Shift-P</label><input type="checkBox"
+                        name="3input-checkBox"><label>Cmd-Shift-D</label><input type="checkBox"
+                        name="3input-checkBox"><label>Ctrl-Shift-D</label><input type="checkBox" name="3input-checkBox">
+                </fieldset>
+
+        </article>
+        <article id="artical-assesment">
+        
+            <h1>Do you know your websites?</h1>
+            <p>There are lots of different snippets of information you could have learned on this website, let us see if
+                you
+                have retained any of this information by way of asking you some ridicuolous questions.</p>
+        
+            <fieldset id="1number" class="input--checkbox-false"><label id="radio-answer__false">In what year did Steve Jobs announce that Macworld had
+                    developed it's
+                    own browser? (please use 4 digits to represent the year)</label><input type="text" name="1input"
+                    placeholder="1999"></fieldset>
+            <fieldset class="radio-answer__false" id="2number"><label id="test1">What
+                    virtual
+                    assistant does Microsoft edge use?</label><label>Siri</label><input type="radio" name="2input"
+                    value="Siri,Bert,Alexa,Cortana"><label>Bert</label><input type="radio" name="2input"
+                    value="Siri,Bert,Alexa,Cortana"><label>Alexa</label><input type="radio" name="2input"
+                    value="Siri,Bert,Alexa,Cortana"><label>Cortana</label><input type="radio" name="2input"
+                    value="Siri,Bert,Alexa,Cortana"></fieldset>
+            <fieldset class="checkbox-answer__false" id ="3number"><label id="test1">What quick keys can you use to save all your tabs in file on
+                    google
+                    chrome?</label><label>Ctrl-Shift-T</label><input type="checkBox"
+                    name="3input-checkBox"><label>Ctrl-Shift-P</label><input type="checkBox"
+                    name="3input-checkBox"><label>Cmd-Shift-D</label><input type="checkBox"
+                    name="3input-checkBox"><label>Ctrl-Shift-D</label><input type="checkBox" name="3input-checkBox">
+            </fieldset>
+    </main>
+    <footer>
+        <p>@Marijn, Oscar en Nasim</p>
+    </footer>
+</body>
+
+</html>

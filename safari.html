@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- comment-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="safari, browser, internet, apple" />
+    <title>Browsers</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="element-editor.js" defer></script>
+  </head>
+
+  <header>
+    <h1>Browsers</h1>
+  </header>
+
+  <nav>
+    <ul class="nav-links" id="navigationbar">
+      <li class="nav-links__option">
+        <a class="active" href="index.html">Home</a>
+      </li>
+      <li class="nav-links__option"><a href="firefox.html">Firefox</a></li>
+      <li class="nav-links__option"><a href="edge.html">Edge</a></li>
+      <li class="nav-links__option" id="active">
+        <a href="safari.html">Safari</a>
+      </li>
+      <li class="nav-links__option"><a href="chrome.html">Chrome</a></li>
+      <li class="nav-links__option">
+        <a href="compare-browsers.html">Compare</a>
+      </li>
+      <li class="nav-links__option"><a href="assesment.html">Assesment</a></li>
+    </ul>
+
+    <ul class="nav-links">
+      <li class="nav-links__option" id="settings-button">
+        <a href="#">Settings</a>
+        <ul class="style-menu">
+          <li>
+            <label class="style-menu__label" for="selectElement"
+              >Choose element</label
+            >
+            <select
+              class="style-menu__style"
+              name="selectElement"
+              id="selectElement" 
+              placeholder = "element"
+            >
+             
+              <option value="all">All</option>
+              <option value="headers">Header</option>
+              <option value="intro">Intro</option>
+              <option value="article_1">Article</option>
+              <option value="footer">Footer</option>
+            </select>
+          </li>
+          <li>
+            <label class="style-menu__label" for="changeFontSize"
+              >Font Size</label
+            >
+          </li>
+          <li>
+          <li>
+            <input type="text" id="changeFontSize" placeholder="5-40" />
+            <li>
+          </li>
+
+          <li>
+            <label class="style-menu__label" for="userColor"
+              >Choose a color</label
+            >
+          </li>
+          <li>
+            <input class="style-menu__color" type="color" id="userColor" />
+          </li>
+          <li><button id="confirm-styles-button">Enter</button></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  </nav>
+
+  <main>
+    <article id="intro">
+      <h2>Safari Origin</h2>
+      <p>
+        On January 7, 2003, at Macworld San Francisco, Steve Jobs announced that
+        Apple had developed its own web browser, called Safari. It was based on
+        Apple's internal fork of the KHTML rendering engine, called WebKit. The
+        company released the first beta version, available only for Mac OS X,
+        later that day. A number of official and unofficial beta versions
+        followed, up until version 1.0 was released on June 23, 2003.[12]
+        Initially only available as a separate download for Mac OS X 10.2,
+        Safari was bundled with Mac OS X v10.3 on October 24, 2003, as the
+        default browser, with Internet Explorer for Mac included only as an
+        alternative browser. Version 1.0.3, released on August 13, 2004, was the
+        last version to support Mac OS X 10.2, while 1.3.2, released on January
+        12, 2006, was the last version to support Mac OS X 10.3. However, 10.3
+        received security updates through 2007.
+      </p>
+      <p>
+        This was Safari 1. Since then there have been 14 versions. Each
+        including its own updates and improvments. Below you can read about a
+        few tricks a tips the current Safari has.
+      </p>
+    </article>
+    <article class="browser-page" id="main-article">
+      <h2>Safari tricks and tips</h2>
+      <h3>Cusomizable tool bar</h3>
+      <p>
+        Having a functional toolbar with the buttons you use most is key to
+        using Safari. If you never use the Home button, for instance, you can
+        remove it. And if you want a button for the Sidebar, you can add it.
+      </p>
+      <p>
+        To make changes, right-click on the toolbar and select Customize
+        Toolbar. Then drag the buttons you want from the popup window into the
+        toolbar or those you don't want from the toolbar to the window. You can
+        also arrange the buttons as you like. Click Done when you finish.
+      </p>
+      <h3>Picture-in-Picture</h3>
+      <p>
+        Picture-in-Picture was one of the best new parts of Safari that arrived
+        with macOS Sierra. Being able to watch a video that's floating over
+        everything else is really useful. It works on a lot of popular video
+        streaming sites.
+      </p>
+      <p>
+        On sites like Vimeo, you'll find the Enter Picture-in-Picture button in
+        the bottom toolbar. But on YouTube, right-click and then right-click
+        again to open the shortcut menu. From there, select Enter
+        Picture-in-Picture.
+      </p>
+      <h3>Turn Off Notification Popups</h3>
+      <p>
+        If you visit a lot of blogs or news sites, you may see a prompt to
+        subscribe to new posts. Rather than denying the request every single
+        time, you can disable this feature altogether.
+      </p>
+      <p>
+        Click Safari > Preferences from the menu bar and select the Websites
+        tab. On the left, click Notifications. Then, at the bottom, uncheck the
+        option for Allow websites to ask for permission to send notifications.
+      </p>
+      <p>
+        You can also click the dropdown box to the right of any website in your
+        list to Deny or Allow notifications for particular sites.
+      </p>
+      <h3>Enable URL Previews in Status Bar</h3>
+      <p>
+        You can see the URL of a link in the status bar while you hover over it
+        with your cursor. Click on View from the menu bar and select Show Status
+        Bar and you're set. This is a handy security function, as it allows you
+        to double-check that links actually go to where they claim.
+      </p>
+      <h3>Save pages as PDFs</h3>
+      <p>
+        Exporting a web page as a PDF doesn't require a special extension when
+        you use Safari. Visit the page and click File > Export as PDF.
+      </p>
+      <p>
+        Then, just choose where you want to save the page and hit Save to
+        export.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>@Marijn, Oscar en Nasim</p>
+  </footer>
+</html>
